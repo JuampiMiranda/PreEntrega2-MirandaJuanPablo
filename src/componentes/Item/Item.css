@@ -1,5 +1,5 @@
 .cardProducto {
-    background-color: #bcbd8d;
+    background-color: #23d4c6;
     border-radius: 10px;
     width: 15rem;
     padding: 1rem;
@@ -15,7 +15,7 @@
 }
 
 .btnProducto {
-    background-color: #373d20;
+    background-color: #d7fff1;
     color: white;
     font-size: 1.2rem;
     width: 8rem;

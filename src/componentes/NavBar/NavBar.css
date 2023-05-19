@@ -2,13 +2,12 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid black;
-    border-top: solid 20px #c1101a;
-    border-bottom: solid 1px #cacaca;
-    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid #23d4c6;
+    border-bottom: solid 1px #23d4c6;
+    box-shadow: 0 2px 3px 0 #23d4c6;
     padding: 1rem;
     font-size: 1.6rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: monospace;
 }
 
 li {
@@ -18,6 +17,6 @@ li {
 
 }
 
-.imgMarolio {
+.logoGima {
     width: 10rem;
 }
