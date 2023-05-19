@@ -2,9 +2,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #23d4c6;
-    border-bottom: solid 1px #23d4c6;
-    box-shadow: 0 2px 3px 0 #23d4c6;
+    background-color: #23d4c6;
+    box-shadow: 0 2px 3px 0 #474747;
     padding: 1rem;
     font-size: 1.6rem;
     font-family: monospace;
@@ -17,6 +16,11 @@ li {
 
 }
 
-.logoGima {
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.imgGima {
     width: 10rem;
 }

@@ -1,13 +1,13 @@
 import CartWidget from "../CartWidget/CartWidget"
 import './NavBar.css'
 import { NavLink, Link } from "react-router-dom";
+import imgGima from "../../assets/logo.png"
 
 const NavBar = () => {
-    const imgGima = "../img/logo.png";
     return (
         <header>
             <Link to={"/"}>
-                <img className="logoGima" src={imgGima} alt="Logo Gima" />
+                <img className="imgGima" src={imgGima} alt="Logo Gima" />
             </Link>
             <ul>
                 <li>
