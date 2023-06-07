@@ -1,8 +1,8 @@
 const productos = [
-    { nombre: "Magneto", precio: 52500, id: "1", img: "../img/magneto.jpg", idCat: "2" },
-    { nombre: "Lipoláser", precio: 75600, id: "2", img: "../img/lipolaser.jpg", idCat: "2" },
-    { nombre: "Ultrasonido", precio: 95000, id: "3", img: "../img/ultrasonido.jpg", idCat: "3" },
-    { nombre: "HIFU", precio: 78500, id: "4", img: "../img/HIFU.jpeg", idCat: "3" }
+    { nombre: "Magneto", precio: 52500, id: "1", stock:2, img: "../img/magneto.jpg", idCat: "2" },
+    { nombre: "Lipoláser", precio: 75600, id: "2", stock:5, img: "../img/lipolaser.jpg", idCat: "2" },
+    { nombre: "Ultrasonido", precio: 95000, id: "3", stock:3, img: "../img/ultrasonido.jpg", idCat: "3" },
+    { nombre: "HIFU", precio: 78500, id: "4", stock:4, img: "../img/HIFU.jpeg", idCat: "3" }
 ]
 
 export const getProductos = () => {
@@ -13,8 +13,6 @@ export const getProductos = () => {
     })
 }
 
-//Creamos una función similar pero que nos retorne un solo item: 
-
 export const getUnProducto = (id) => {
     return new Promise(resolve => {
         setTimeout(() => {
@@ -23,9 +21,6 @@ export const getUnProducto = (id) => {
         }, 200)
     })
 }
-
-
-//Creamos una función que retorne toda una categoría de productos: 
 
 export const getProductosPorCategoria = (idCategoria) => {
     return new Promise( resolve => {

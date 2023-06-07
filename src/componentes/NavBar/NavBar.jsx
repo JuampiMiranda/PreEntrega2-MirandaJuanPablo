@@ -1,7 +1,7 @@
-import CartWidget from "../CartWidget/CartWidget"
-import './NavBar.css'
+import CartWidget from "../CartWidget/CartWidget";
+import './NavBar.css';
 import { NavLink, Link } from "react-router-dom";
-import imgGima from "../../assets/logo.png"
+import imgGima from "../../assets/logo.png";
 
 const NavBar = () => {
     return (
@@ -9,6 +9,7 @@ const NavBar = () => {
             <Link to={"/"}>
                 <img className="imgGima" src={imgGima} alt="Logo Gima" />
             </Link>
+            
             <ul>
                 <li>
                     <NavLink to={`/categoria/2`}>Fisioterapia</NavLink>
